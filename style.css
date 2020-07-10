@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background: #f4f4f4;
+    padding-top: 55px;
+    box-shadow: 0 2px 10px -5px rgba(0, 0, 0, .5);
+    padding-bottom: 20px;
+}
+
+.wrapper {
+    padding: 0px 15px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.header-element {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.btn a {
+    background: #006fca;
+    color: white;
+    padding: 4px 9px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, .5);
+    text-shadow: 0px 0px 3px #0000009e;
+}
+
+.add_btn {
+    background: red;
+    padding: 3px 9px;
+}
+
+.element-one {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.element-one div:nth-child(2) {
+    margin-left: 10px;
+}
+
+.element-two {
+    position: relative;
+}
+
+.intro-search {
+    padding: 6px 8px;
+    width: 203px;
+    box-shadow: 0 1px 3px #57555594 inset;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    position: relative;
+}
+
+input[type="search"]::placeholder {
+    color: #b3b3b3;
+}
+
+.search-im {
+    position: absolute;
+    width: 13px;
+    left: -22px;
+    top: 6px;
+}
+
+.btn a:hover {
+    background: #07508c;
+}
+
+.month-elemen_item {
+    display: flex;
+    padding: 12px 0px 12px;
+    align-items: center;
+    align-content: center;
+}
+
+.month-item {
+    display: flex;
+    width: 127px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.style-dx {
+    box-shadow: 0 0 2px 1px rgb(208, 208, 208);
+    padding: 3px 5px;
+    font-size: 7px;
+    border-radius: 3px;
+}
+
+.info {
+    font-size: 11px;
+    box-shadow: 0 0 2px 1px rgb(208, 208, 208);
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+    border-radius: 3px;
+    height: 15px;
+    margin-left: 13px;
+}
+
+.box-day {
+    display: flex;
+}
+
+.day-item {
+    width: 114px;
+    border: 1px solid gainsboro;
+    border-collapse: collapse;
+    padding: 6px;
+    height: 104px;
+    line-height: 17px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.day-title {}
+
+.name-day {
+    font-size: 11px;
+    float: left;
+    margin-right: 5px;
+    color: #848484;
+}
+
+.number-day {
+    font-size: 11px;
+    color: #848484;
+}
+
+.event {
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.party-name {
+    font-size: 11px;
+}
+
+.arrow-img{
+    width: 5px;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 896px;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #ebebeb;
+    border-left: 1px solid #ebebeb;
+  }
+  
+  li {
+    box-sizing: border-box;
+    width: 128px;
+    padding: 5px 0px 6px 9px;
+    height: 118px;
+    border-bottom: 1px solid #ebebeb;
+    border-right: 1px solid #ebebeb;
+    line-height: 16px;
+  }
+
+  .present{
+    background: #ebebeb;
+  }
+
+  .present .name-day, .present .number-day{
+    font-weight: bold;
+    color: #272727;
+  }
+
+  .occasion{
+      background:#c1e4ff;
+  }
+
+  .occasion .event{
+      font-weight: bold;
+      color: black;
+  }
+
+  .day-box li:hover:before{
+      content:' ';
+      width: 8px;
+      height: 8px;
+      background:#006fca;
+      position: absolute;
+      right: 6px;
+      bottom: 6px;
+      border-radius: 50px;
+
+  }
+
+  .day-box li{position: relative;}
